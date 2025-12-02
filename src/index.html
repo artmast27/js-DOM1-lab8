@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Простий калькулятор</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <section class="calculator">
+        <h1 class="calculator__title">Калькулятор</h1>
+
+        <div class="calculator__fields">
+          <div class="field">
+            <label for="num1">Перше число</label>
+            <input id="num1" type="text" />
+          </div>
+
+          <div class="field">
+            <label for="num2">Друге число</label>
+            <input id="num2" type="text" />
+          </div>
+        </div>
+
+        <div class="calculator__buttons">
+          <button id="add">+</button>
+          <button id="sub">−</button>
+          <button id="mul">×</button>
+          <button id="div">÷</button>
+        </div>
+
+        <div class="calculator__result">
+          <span>Результат: </span>
+          <span id="result">—</span>
+        </div>
+
+        <p id="error" class="calculator__error"></p>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
+
